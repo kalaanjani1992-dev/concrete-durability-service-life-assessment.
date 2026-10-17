@@ -16,6 +16,7 @@ plt.figure(figsize=(10, 6))
 
 # --- Step 2: Solve Fick's Second Law of Diffusion using the Error Function ---
 for t in years:
+    3. ![Chloride Profile](https://githubusercontent.com)
     # Closed-form error function solution to the 1D diffusion equation
     concentration = C0 * erfc(depth_grid / (2 * np.sqrt(D_control * t)))
     plt.plot(depth_grid, concentration, label=f'Year {t}')
